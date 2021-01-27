@@ -1,3 +1,5 @@
+# Create one structure for repetitive tests to reuse same logic
+
 shared_examples_for 'gift_order' do |gift_time_list, for_whom|
   gift_time_list.each do |time|
     describe time do
